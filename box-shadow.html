@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Box Shadow Example</title>
+    <style>
+        body {
+            background: #f9f6f0;
+            padding: 30px;
+        }
+        p {
+            width: 150px;
+            height: 150px;
+            background: #e0e0e0;
+            margin: 30px;
+            display: inline-block;
+        }
+        p.one {
+            -moz-box-shadow: -5px -5px #777777;
+            -webkit-box-shadow: -5px -5px #777777;
+            box-shadow: -5px -5px #777777;
+        }
+        p.two {
+            -moz-box-shadow: 5px 5px 5px #777777;
+            -webkit-box-shadow: 5px 5px 5px #777777;
+            box-shadow: 5px 5px 5px #777777;
+        }
+        p.three {
+            -moz-box-shadow: 5px 5px 5px 5px #777777;
+            -webkit-box-shadow: 5px 5px 5px 5px #777777;
+            box-shadow: 5px 5px 5px 5px #777777;
+        }
+        p.four {
+            -moz-box-shadow: 0 0 10px #777777;
+            -webkit-box-shadow: 0 0 10px #777777;
+            box-shadow: 0 0 10px #777777;
+        }
+        p.five {
+            -moz-box-shadow: inset 0 0 10px #777777;
+            -webkit-box-shadow: inset 0 0 10px #777777;
+            box-shadow: inset 0 0 10px #777777;
+        }
+    </style>
+</head>
+<body>
+    <p class="one"></p>
+    <p class="two"></p>
+    <p class="three"></p>
+    <br>
+    <p class="four"></p>
+    <p class="five"></p>
+</body>
+</html>

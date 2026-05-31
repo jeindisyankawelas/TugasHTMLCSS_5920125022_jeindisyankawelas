@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldset & Legend Style</title>
+    <style>
+        fieldset {
+            width: 350px;
+            border: 1px solid #dcdcdc;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: right;
+        }
+        legend {
+            background-color: #efefef;
+            border: 1px solid #dcdcdc;
+            border-radius: 10px;
+            padding: 10px 20px;
+            text-align: left;
+            text-transform: uppercase;
+        }
+        label {
+            display: block;
+            margin: 15px 0;
+            text-align: left;
+        }
+        input[type="submit"] {
+            margin-top: 10px;
+            background: #444;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Newsletter</legend>
+            <label>Name: <input type="text"></label>
+            <label>Email: <input type="email"></label>
+            <input type="submit" value="Subscribe">
+        </fieldset>
+    </form>
+</body>
+</html>
